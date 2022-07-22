@@ -1,4 +1,4 @@
-# Actividad1Singleton
+# Actividad1Singleton Java 17 Spring 2.6.9
 Actividad 1 Singleton clase patrones de diseño maestría UPS
 
 

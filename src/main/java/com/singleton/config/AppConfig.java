@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Scope;
 public class AppConfig {
     @Bean("Persona")
     @Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
-    public Persona getAccountService() {
+    public Persona getPersona() {
         return new Persona();
     }
 }

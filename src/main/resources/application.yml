@@ -1,0 +1,27 @@
+spring:
+   datasource:
+     username: sa
+     url: jdbc:sqlserver://localhost:1433;databaseName=TransactionDB
+     password: SQLserver
+     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+   jpa:
+     properties:
+       hibernate:
+         jdbc:
+           batch_size: 15
+         order_inserts: true
+         order_updates: true
+   servlet:
+     multipart:
+       maxFileSize: 200MB
+       maxRequestSize: 200MB
+
+logging:
+   logback:
+     rollingpolicy:
+       max-file-size: 1MB
+       max-history: 1
+   file:
+     path: C:/Users/pieri/Desktop/Patrones de diseño/logs
+     name: Singleton.log
+
